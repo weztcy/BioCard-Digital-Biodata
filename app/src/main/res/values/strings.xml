@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BioCard</string>
+    <string name="app_tagline">Your Digital Biodata</string>
+    <string name="app_slogan">Create. Manage. Share.</string>
+    <string name="app_vision">“Make your identity simple, digital, and shareable.”</string>
+
+    <!-- Titles -->
+    <string name="title_create_biodata">Create Biodata</string>
+    <string name="title_edit_biodata">Edit Biodata</string>
+    <string name="title_biocard">Digital BioCard</string>
+    <string name="title_about">About</string>
+
+    <!-- Actions -->
+    <string name="action_create_biodata">Create Biodata</string>
+    <string name="action_view_biocard">View BioCard</string>
+    <string name="action_edit_biodata">Edit Biodata</string>
+    <string name="action_share">Share</string>
+    <string name="action_share_biocard">Share BioCard</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_biodata">Delete Biodata</string>
+    <string name="action_about">About</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_biodata">Save Biodata</string>
+    <string name="action_choose_photo">Choose Photo</string>
+    <string name="action_change_photo">Change Photo</string>
+    <string name="action_remove_photo">Remove</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_clear_date">Clear date</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Hello there 👋</string>
+    <string name="home_subtitle">Create. Manage. Share your digital biodata.</string>
+    <string name="home_your_card">Your BioCard</string>
+    <string name="home_tap_to_view">Tap the card to view your Digital BioCard</string>
+    <string name="home_quick_actions">Quick actions</string>
+    <string name="empty_title">Your biodata is not available yet.</string>
+    <string name="empty_subtitle">Create your biodata once and show or share it anytime as a clean digital card.</string>
+
+    <!-- Form sections -->
+    <string name="section_photo">Profile Photo</string>
+    <string name="section_personal">Personal Information</string>
+    <string name="section_contact">Contact Information</string>
+    <string name="section_education">Education</string>
+    <string name="section_work">Work</string>
+    <string name="section_additional">Additional Information</string>
+    <string name="section_skills">Skills</string>
+    <string name="section_optional">Optional</string>
+    <string name="required_hint">Fields marked with * are required.</string>
+    <string name="photo_hint">JPG or PNG. The photo is stored privately on this device.</string>
+
+    <!-- Form labels -->
+    <string name="label_full_name">Full Name *</string>
+    <string name="label_nickname">Nickname</string>
+    <string name="label_gender">Gender *</string>
+    <string name="label_birth_place">Place of Birth</string>
+    <string name="label_birth_date">Date of Birth</string>
+    <string name="label_birth">Place, Date of Birth</string>
+    <string name="label_nationality">Nationality</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_email">Email</string>
+    <string name="label_address">Address</string>
+    <string name="label_city">City</string>
+    <string name="label_postal_code">Postal Code</string>
+    <string name="label_education_level">Education Level</string>
+    <string name="label_institution">Institution</string>
+    <string name="label_major">Major</string>
+    <string name="label_graduation_year">Graduation Year</string>
+    <string name="label_occupation">Occupation</string>
+    <string name="label_company">Company / Institution</string>
+    <string name="label_position">Position</string>
+    <string name="label_work_address">Work Address</string>
+    <string name="label_website">Website</string>
+    <string name="label_instagram">Instagram</string>
+    <string name="label_linkedin">LinkedIn</string>
+    <string name="label_facebook">Facebook</string>
+    <string name="label_skills">Skills</string>
+    <string name="label_hobbies">Hobbies</string>
+    <string name="label_biography">Biography</string>
+    <string name="label_other_info">Other Information</string>
+
+    <string name="helper_skills">Separate skills with commas, e.g. Java, Android, UI/UX</string>
+    <string name="helper_phone">e.g. +62 812 3456 7890</string>
+    <string name="placeholder_instagram">\@username</string>
+
+    <!-- Validation (PRD §12) -->
+    <string name="error_full_name">Please enter your full name.</string>
+    <string name="error_gender">Please select your gender.</string>
+    <string name="error_email">Please enter a valid email address.</string>
+    <string name="error_phone">Please enter a valid phone number (6–15 digits).</string>
+    <string name="error_graduation_year">Please enter a valid year.</string>
+    <string name="error_website">Please enter a valid website address.</string>
+
+    <!-- Feedback (PRD §22) -->
+    <string name="msg_save_success">Biodata successfully saved.</string>
+    <string name="msg_save_failed">Unable to save biodata. Please try again.</string>
+    <string name="msg_empty_biodata">No biodata found. Please create your biodata first.</string>
+    <string name="msg_invalid_input">Please check the highlighted fields.</string>
+    <string name="msg_delete_success">Biodata deleted.</string>
+    <string name="msg_delete_failed">Unable to delete biodata. Please try again.</string>
+    <string name="msg_photo_failed">Unable to load the selected photo.</string>
+    <string name="msg_saving">Saving…</string>
+
+    <!-- Delete dialog (PRD §15) -->
+    <string name="delete_title">Delete Biodata?</string>
+    <string name="delete_message">Are you sure you want to delete your biodata? This action cannot be undone.</string>
+
+    <!-- BioCard -->
+    <string name="biocard_header">PROFILE</string>
+    <string name="nickname_format">“%1$s”</string>
+    <string name="cd_profile_photo">Profile photo</string>
+    <string name="cd_change_photo">Change profile photo</string>
+    <string name="cd_logo">BioCard logo</string>
+
+    <!-- Share -->
+    <string name="share_chooser_title">Share biodata via</string>
+    <string name="share_subject">BioCard — %1$s</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">BioCard is an Android application to create, store, manage and display your biodata as a clean digital profile card — a practical digital alternative to paper biodata forms.</string>
+    <string name="about_features_title">Features</string>
+    <string name="about_features">• Create and edit your biodata\n• Add a profile photo\n• Personal, contact, education and work information\n• Clean Digital BioCard view\n• Share your biodata to any app\n• Works fully offline</string>
+    <string name="about_privacy_title">Your privacy</string>
+    <string name="about_privacy">All biodata is stored locally on this device only. Nothing is sent to any server.</string>
+    <string name="about_copyright">© 2026 BioCard · MIT License</string>
+
+    <!-- Enhanced Biodata Fields (Data Enrichment) -->
+    <string name="section_emergency">Emergency &amp; Medical (ICE)</string>
+    <string name="section_certifications">Certifications &amp; Licenses</string>
+    <string name="section_projects">Featured Projects &amp; Portfolio</string>
+    <string name="section_languages">Languages</string>
+
+    <string name="label_blood_type">Blood Type</string>
+    <string name="label_medical_notes">Medical Notes / Allergies</string>
+    <string name="label_emergency_name">Emergency Contact Name</string>
+    <string name="label_emergency_relation">Emergency Contact Relationship</string>
+    <string name="label_emergency_phone">Emergency Contact Phone</string>
+    <string name="label_education_period">Study Period</string>
+    <string name="label_gpa">GPA / Final Grade</string>
+    <string name="label_employment_type">Employment Type</string>
+    <string name="label_work_period">Working Period</string>
+    <string name="label_job_description">Job Description / Responsibilities</string>
+    <string name="label_certifications">Certification Title</string>
+    <string name="label_cert_issuer">Issuing Organization</string>
+    <string name="label_cert_url">Credential URL</string>
+    <string name="label_project_name">Project Title</string>
+    <string name="label_project_description">Project Description</string>
+    <string name="label_project_url">Project / Demo URL</string>
+    <string name="label_languages">Languages Spoken</string>
+
+    <string name="helper_languages">e.g. Indonesian (Native), English (Fluent), Japanese (Conversational)</string>
+    <string name="helper_emergency_phone">Phone number to reach in case of medical emergency</string>
+    <string name="helper_gpa">e.g. 3.85 / 4.00</string>
+    <string name="helper_period">e.g. 2020 – 2024 or 2022 – Present</string>
+    <string name="error_emergency_phone">Please enter a valid emergency phone number (6–15 digits).</string>
+    <string name="error_cert_url">Please enter a valid credential URL.</string>
+    <string name="error_project_url">Please enter a valid project URL.</string>
+</resources>
+

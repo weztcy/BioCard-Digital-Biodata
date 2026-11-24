@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="education_level_options">
+        <item>Elementary School</item>
+        <item>Junior High School</item>
+        <item>Senior High School</item>
+        <item>Vocational High School</item>
+        <item>Diploma</item>
+        <item>Bachelor</item>
+        <item>Master</item>
+        <item>Doctorate</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="blood_type_options">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>Not Specified</item>
+    </string-array>
+
+    <string-array name="employment_type_options">
+        <item>Full-time</item>
+        <item>Part-time</item>
+        <item>Contract</item>
+        <item>Freelance</item>
+        <item>Self-employed</item>
+        <item>Internship</item>
+        <item>Apprenticeship</item>
+    </string-array>
+
+    <string-array name="emergency_relationship_options">
+        <item>Spouse / Partner</item>
+        <item>Parent</item>
+        <item>Child</item>
+        <item>Sibling</item>
+        <item>Friend</item>
+        <item>Colleague</item>
+        <item>Other</item>
+    </string-array>
+</resources>
+
